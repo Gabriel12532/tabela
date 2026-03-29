@@ -1,0 +1,82 @@
+body {
+  background: white;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+ 
+h1 {
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 16px;
+}
+ 
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+ 
+td {
+  width: 62px;
+  height: 62px;
+  border: 1px solid black;
+  text-align: center;
+  vertical-align: top;
+  padding: 3px;
+  font-size: 9px;
+  line-height: 1.3;
+}
+ 
+td div { font-size: 8px; }
+td h2  { font-size: 18px; margin: 0; font-weight: bold; }
+ 
+td.vazio { border: none; background: white; }
+ 
+td.metais-alcalinos     { background: #ff9999; }
+td.metais-alcalino-terr { background: #ffcc99; }
+td.metais-transicao     { background: #ffff99; }
+td.lantanideos          { background: #ffccff; }
+td.actinideos           { background: #ff99cc; }
+td.outrosmetais         { background: #99ccff; }
+td.semimetais           { background: #99ffcc; }
+td.nao-metais           { background: #ccffcc; }
+td.halogenos            { background: #ffcc66; }
+td.gases-nobres         { background: #ccccff; }
+ 
+/* LEGENDA */
+.legenda {
+  margin: 20px auto;
+  width: fit-content;
+  padding: 10px 16px;
+}
+ 
+.legenda p {
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+ 
+.legenda-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  margin-bottom: 4px;
+}
+ 
+.legenda-cor {
+  width: 20px;
+  height: 16px;
+  border: 1px solid black;
+  flex-shrink: 0;
+}
+ 
+.lc-ma  { background: #ff9999; }
+.lc-mat { background: #ffcc99; }
+.lc-mt  { background: #ffff99; }
+.lc-lan { background: #ffccff; }
+.lc-act { background: #ff99cc; }
+.lc-om  { background: #99ccff; }
+.lc-sm  { background: #99ffcc; }
+.lc-nm  { background: #ccffcc; }
+.lc-hal { background: #ffcc66; }
+.lc-gn  { background: #ccccff; }
